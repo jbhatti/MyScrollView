@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		88CE82461F707033002EF222 /* MyScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 88CE82451F707033002EF222 /* MyScrollView.m */; };
 		88DEDB471F703255007E5D03 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 88DEDB461F703255007E5D03 /* main.m */; };
 		88DEDB4A1F703255007E5D03 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 88DEDB491F703255007E5D03 /* AppDelegate.m */; };
 		88DEDB4D1F703255007E5D03 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88DEDB4C1F703255007E5D03 /* ViewController.m */; };
@@ -16,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		88CE82441F707033002EF222 /* MyScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyScrollView.h; sourceTree = "<group>"; };
+		88CE82451F707033002EF222 /* MyScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyScrollView.m; sourceTree = "<group>"; };
 		88DEDB421F703255007E5D03 /* MyScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88DEDB461F703255007E5D03 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		88DEDB481F703255007E5D03 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -58,6 +61,8 @@
 		88DEDB441F703255007E5D03 /* MyScrollView */ = {
 			isa = PBXGroup;
 			children = (
+				88CE82441F707033002EF222 /* MyScrollView.h */,
+				88CE82451F707033002EF222 /* MyScrollView.m */,
 				88DEDB481F703255007E5D03 /* AppDelegate.h */,
 				88DEDB491F703255007E5D03 /* AppDelegate.m */,
 				88DEDB4B1F703255007E5D03 /* ViewController.h */,
@@ -151,6 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				88DEDB4D1F703255007E5D03 /* ViewController.m in Sources */,
+				88CE82461F707033002EF222 /* MyScrollView.m in Sources */,
 				88DEDB4A1F703255007E5D03 /* AppDelegate.m in Sources */,
 				88DEDB471F703255007E5D03 /* main.m in Sources */,
 			);
@@ -309,6 +315,7 @@
 				88DEDB5B1F703255007E5D03 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
