@@ -8,11 +8,30 @@
 
 #import "MyScrollView.h"
 
+
 @implementation MyScrollView
 
+//create and add pan gesture
+- (instancetype)initWithFrame:(CGRect)frame
+{
+    self = [super initWithFrame:frame];
+    if (self) {
+        _panGesture = [[UIPanGestureRecognizer alloc] initWithTarget:self action:@selector(handlePan:)];
+        self.userInteractionEnabled = YES;
+        [self addGestureRecognizer:self.panGesture];
+        _yTranslation = 0;
+        
+    }
+    return self;
+}
 
--(void)handlePan:(UIPanGestureRecognizer*) panGesture {
+
+
+
+-(IBAction)handlePan:(UIPanGestureRecognizer*) sender {
+    self.yTranslation = [sender translationInView:self].y;
     
+    self.bounds = CGRectMake (0, self.yTranslation, self.frame.size.width, self.frame.size.height);
 }
 
 /*

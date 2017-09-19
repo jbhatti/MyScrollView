@@ -11,8 +11,10 @@
 @interface MyScrollView : UIView
 
 @property (nonatomic) CGSize contentSize;
+@property (nonatomic, assign) CGFloat yTranslation;
+@property (nonatomic) UIPanGestureRecognizer * panGesture;
 
--(void)handlePan:(UIPanGestureRecognizer*) panGesture;
+-(instancetype) initWithFrame:(CGRect)frame;
 
 
 @end
